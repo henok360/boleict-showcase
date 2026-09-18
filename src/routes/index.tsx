@@ -54,7 +54,7 @@ function Home() {
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 opacity-[0.09]" style={{ backgroundImage: 'linear-gradient(to right, currentColor 1px, transparent 1px), linear-gradient(to bottom, currentColor 1px, transparent 1px)', backgroundSize: '44px 44px' }} />
         <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
           <p className="inline-flex rounded-full border border-white/20 bg-white/5 px-3 py-1 text-[10px] font-medium tracking-wide sm:text-xs">Official service desk · Information Technology Directorate</p>
-          <h1 className="mt-5 max-w-3xl font-serif text-3xl font-bold leading-tight sm:text-5xl">የኢንፎርሜሽን ቴክኖሎጂ አገልግሎት መከታተያ ሲስተም</h1>
+          <h1 className="mt-5 max-w-3xl font-serif text-3xl font-bold leading-tight sm:text-5xl" style={{ fontFamily: "'Noto Sans Ethiopic', 'Bitter', serif" }}>የኢንፎርሜሽን ቴክኖሎጂ አገልግሎት መከታተያ ሲስተም</h1>
           <p className="mt-4 max-w-2xl text-sm leading-relaxed opacity-85 sm:text-base">End-to-End Incident Resolution and Service Continuity Management — one accountable channel from the moment a problem is reported until it is confirmed fixed.</p>
           <div className="mt-8 flex flex-wrap gap-3"><ActionLink>Submit a request <ArrowRight className="ml-2 h-4 w-4" /></ActionLink><ActionLink outline>Track my requests</ActionLink></div>
           <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-white/15 bg-white/15 sm:grid-cols-4">

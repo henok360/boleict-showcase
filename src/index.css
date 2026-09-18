@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:opsz,wght@10..72,400..800&family=IBM+Plex+Mono:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Ethiopic:wght@400;600;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @custom-variant dark (&:is(.dark *));
@@ -21,12 +21,12 @@
   --card-foreground: oklch(0.22 0.03 155);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.22 0.03 155);
-  --primary: oklch(0.31 0.11 155);
-  --primary-foreground: oklch(0.98 0.01 145);
-  --secondary: oklch(0.93 0.035 145);
-  --secondary-foreground: oklch(0.26 0.06 155);
-  --muted: oklch(0.94 0.012 145);
-  --muted-foreground: oklch(0.48 0.035 155);
+  --primary: oklch(0.42 0.09 158);
+  --primary-foreground: oklch(0.985 0.01 145);
+  --secondary: oklch(0.94 0.02 150);
+  --secondary-foreground: oklch(0.3 0.05 158);
+  --muted: oklch(0.95 0.012 150);
+  --muted-foreground: oklch(0.5 0.02 155);
   --accent: oklch(0.78 0.14 82);
   --accent-foreground: oklch(0.25 0.05 80);
   --destructive: oklch(0.58 0.2 28);
@@ -50,7 +50,7 @@
 
   --radius: 0.5rem;
   --font-sans: 'IBM Plex Mono', ui-monospace, monospace;
-  --font-serif: 'Lora', ui-serif, Georgia, serif;
+  --font-serif: 'Bitter', Georgia, serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
   --shadow-sm: 0 1px 2px 0 oklch(0.2 0.04 155 / 0.05);
   --shadow-md: 0 1px 3px 0 oklch(0.2 0.04 155 / 0.1), 0 1px 2px -2px oklch(0.2 0.04 155 / 0.1);
