@@ -170,11 +170,10 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
     host: true,
-    allowedHosts: true,
+    allowedHosts: true, // Allows all external hosts during local dev / proxy tunnels
   },
-  // Allows Render and external hostnames during 'vite preview'
   preview: {
-    allowedHosts: true,
+    allowedHosts: true, // Allows all external hosts during 'vite preview' on deployment hosts (e.g. Render)
   },
   build: {
     outDir: '.vite-out',
