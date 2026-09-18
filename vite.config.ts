@@ -4,6 +4,17 @@ import viteReact from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 import fs from 'node:fs';
+import { defineConfig } from 'vite'
+import react from '@vitejs.plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  preview: {
+    allowedHosts: true, // Allows all external deployment hosts
+    // Alternatively, specify the domain explicitly:
+    // allowedHosts: ['boleict-1mtp.onrender.com']
+  }
+})
 // Blink Visual Editor: stamps data-blnk-id on JSX + injects iframe-side picker
 // runtime. Self-contained (no external deps) so this template stays portable.
 import { blinkTaggerPlugin } from './blink-tagger.plugin.mjs';
